@@ -1,0 +1,61 @@
+
+.container {
+	width: 100%;
+	height: 100%;
+	margin: auto !important;
+}
+
+.row {
+	display: flex;
+	width: 100%;
+}
+
+.col {
+	width: 25%;
+}
+
+.centralizar {
+	text-align: center;
+}
+
+.screen {
+	border: solid;
+	width: 100%;
+	text-align: right;
+}
+
+.button {
+	background-color: white;
+	border-radius: 5px;
+	height:90px;
+	width: 100%;
+}
+
+.buttonNumbers {
+	border-color: #3374f0;
+}
+
+.buttonOperations {
+	border-color: #0f8a2e;
+}
+
+.buttonEraser{
+	border-color: #f7e44b;
+}
+
+.buttonNumbers:hover{
+	background-color: #3374f0;
+}
+
+.buttonOperations:hover{
+	background-color: #0f8a2e;
+}
+
+.buttonEraser:hover{
+	background-color: #f7e44b;
+}
+
+.buttonNumbers:active,.buttonOperations:active,.buttonEraser:active{
+	background-color: white;
+}
+%;
